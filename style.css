@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(225, 224, 224);
+}
+header{
+    height: 60px;
+    background: white;
+    box-shadow: 1px 2px 1px rgb(159, 159, 159);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.security i{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.users{
+    display: flex;
+    
+}
+.icons{
+    margin-left: 0.5rem ;
+    margin-right: 1rem;
+    width: 40px;
+    text-align: center;
+}
+.icons i{
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+.icons span{
+    font-size: 0.8rem;
+    text-align: center;
+    
+}
+
+.button{
+    display: flex;
+}
+#btn{
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(188, 7, 7);
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(103, 10, 10);
+}
+.box{
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.borderbox1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem;
+        width: 350px;
+        height: 210px;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        background: linear-gradient( to right, rgba(70, 255, 243, 0.142), rgba(194, 194, 196, 0.171));
+        cursor: pointer;
+        transition: 0.3px;
+    }
+    .insidebox1{
+        height:150px ;
+        width: 150px;
+        background-color: rgba(105, 105, 143, 0.817);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .insidebox1  span{
+        text-align: center;
+        font-size: 3rem;
+        color: rgba(25, 39, 84, 0.796);
+    }
+    .mic {
+        position: relative;
+    top: 5.5rem;
+    padding: 0.2rem;
+    background-color: rgba(14, 14, 14, 0.374);
+    color: white;
+    border-radius: 0.3rem;
+    text-align: center;
+    right: 11.5rem;
+    }
+    .borderbox2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem;
+        width: 350px;
+        height: 210px;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        background: linear-gradient( to right, rgba(231, 228, 177, 0.537), rgba(210, 224, 176, 0.485));
+        cursor: pointer;
+        transition: 0.3px;
+         }
+         .insidebox2{
+            height:150px ;
+            width: 150px;
+            background-color: rgba(213, 204, 162, 0.797);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .insidebox2  span{
+            text-align: center;
+            font-size: 3rem;
+            color: rgba(77, 38, 79, 0.857);
+        }
+       
+    
+    .borderbox3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem;
+        width: 350px;
+        height: 210px;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        background: linear-gradient( to right, rgba(179, 143, 166, 0.135), rgba(181, 143, 189, 0.42));
+        cursor: pointer;
+        transition: 0.3px;
+         }
+         .insidebox3{
+            height:150px ;
+            width: 150px;
+            background-color: rgba(168, 112, 173, 0.802);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .insidebox3  span{
+            text-align: center;
+            font-size: 3rem;
+            color: rgba(84, 25, 46, 0.796);
+        }
+        .borderbox4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.1rem;
+            width: 350px;
+            height: 210px;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            cursor: pointer;
+            background: linear-gradient( to right, rgba(149, 236, 173, 0.244), rgba(141, 186, 154, 0.22));
+            cursor: pointer;
+            transition: 0.3px;
+             }
+             .insidebox4{
+                height:150px ;
+                width: 150px;
+                background-color: rgba(202, 134, 171, 0.814);
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .insidebox4  span{
+                text-align: center;
+                font-size: 3rem;
+                color: rgba(136, 107, 47, 0.796);
+            }
+            .borderbox5{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0.1rem;
+                width: 350px;
+                height: 210px;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                cursor: pointer;
+                background: linear-gradient( to right, rgba(198, 197, 178, 0.285), rgba(146, 196, 161, 0.328));
+                cursor: pointer;
+                transition: 0.3px;
+                 }
+                 .insidebox5{
+                    height:150px ;
+                    width: 150px;
+                    background-color: rgba(162, 169, 134, 0.628);
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .insidebox5  span{
+                    text-align: center;
+                    font-size: 3rem;
+                    color: rgba(25, 39, 84, 0.796);
+                }
+                .borderbox6{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0.1rem;
+                    width: 350px;
+                    height: 210px;
+                    border-radius: 0.5rem;
+                    padding: 1rem;
+                    cursor: pointer;
+                    background: linear-gradient( to right, rgba(177, 172, 111, 0.317), rgba(117, 177, 141, 0.389));
+                    cursor: pointer;
+                    transition: 0.3px;
+                     }
+                     .insidebox6{
+                        height:150px ;
+                        width: 150px;
+                        background-color: rgba(153, 159, 108, 0.666);
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .insidebox6  span{
+                        text-align: center;
+                        font-size: 3rem;
+                        color: rgba(25, 39, 84, 0.796);
+                    }
+                    .borderbox7{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0.1rem;
+                        width: 350px;
+                        height: 210px;
+                        border-radius: 0.5rem;
+                        padding: 1rem;
+                        cursor: pointer;
+                        background: linear-gradient( to right, rgba(152, 139, 176, 0.264), rgba(192, 137, 177, 0.317));
+                        cursor: pointer;
+                        transition: 0.3px;
+                         }
+                         .insidebox7{
+                            height:150px ;
+                            width: 150px;
+                            background-color: rgba(146, 177, 163, 0.582);
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .insidebox7  span{
+                            text-align: center;
+                            font-size: 3rem;
+                            color: rgba(25, 39, 84, 0.796);
+                        }
+        .borderbox8{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem;
+        width: 350px;
+        height: 210px;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        background: linear-gradient( to right, rgba(201, 165, 152, 0.305), rgba(170, 123, 127, 0.286));
+        cursor: pointer;
+        transition: 0.3px;
+         }
+         .insidebox8{
+            height:150px ;
+            width: 150px;
+            background-color: rgba(154, 135, 157, 0.505);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .insidebox8  span{
+            text-align: center;
+            font-size: 3rem;
+            color: rgba(25, 39, 84, 0.796);
+        }
+        .borderbox9{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.1rem;
+            width: 350px;
+            height: 210px;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            cursor: pointer;
+            background: linear-gradient( to right, rgba(133, 174, 175, 0.225), rgba(163, 124, 124, 0.244));
+            cursor: pointer;
+            transition: 0.3px;
+             }
+             .insidebox9{
+                height:150px ;
+                width: 150px;
+                background-color: rgba(157, 135, 156, 0.895);
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .insidebox9  span{
+                text-align: center;
+                font-size: 3rem;
+                color: rgba(25, 39, 84, 0.796);
+            }                   
+                    
+                
+            
+        
